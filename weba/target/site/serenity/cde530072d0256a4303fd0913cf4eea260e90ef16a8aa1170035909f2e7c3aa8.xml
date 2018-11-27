@@ -1,0 +1,54 @@
+<acceptance-test-run title="Login acc correct" name="Login acc correct" description="" steps="6" successful="6" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="21155" timestamp="2018-11-23T11:54:21.646+07:00" session-id="51142effcd351aedb4b4d567b4d4d2b8">
+  <user-story id="login" name="Login" path="Login.feature"/>
+  <tags>
+    <tag name="Login" type="feature"/>
+  </tags>
+  <test-step result="SUCCESS" duration="17502">
+    <screenshots>
+      <screenshot image="16c7147b337b8100448861cb6b43c579.png"/>
+    </screenshots>
+    <description>Given open browser to login</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="995">
+    <screenshots>
+      <screenshot image="37203c401bae9608b2ad70ff014fd4e3.png"/>
+    </screenshots>
+    <description>When click login</description>
+  </test-step>
+  <test-group name="And enter email&#xa;| lenguyenthantuyen | le |" result="SUCCESS">
+    <screenshots>
+      <screenshot image="383487f74eec812828b2d945b1cdb13a.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="456">
+      <screenshots>
+        <screenshot image="88af067970fe72b5c0edb7525fba06bd.png"/>
+      </screenshots>
+      <description>Enter email:       | lenguyenthantuyen | le |
+</description>
+    </test-step>
+  </test-group>
+  <test-group name="And enter pass&#xa;| tuyen | lee |" result="SUCCESS">
+    <screenshots>
+      <screenshot image="da0c136062ebe9fd3b58dd014ede2d58.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="440">
+      <screenshots>
+        <screenshot image="da0c136062ebe9fd3b58dd014ede2d58.png"/>
+      </screenshots>
+      <description>Enter pass:       | tuyen | lee |
+</description>
+    </test-step>
+  </test-group>
+  <test-step result="SUCCESS" duration="499">
+    <screenshots>
+      <screenshot image="fcc7ff7c8d2c190affb56b62af3deca7.png"/>
+    </screenshots>
+    <description>And click login button</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="312">
+    <screenshots>
+      <screenshot image="fcc7ff7c8d2c190affb56b62af3deca7.png"/>
+    </screenshots>
+    <description>Then redirect home page</description>
+  </test-step>
+</acceptance-test-run>
